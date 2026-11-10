@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Southeast District Fall Meeting Agenda</title>
+<style>
+  :root {
+    --ink: #1d2433;
+    --muted: #5b6475;
+    --line: #dfe3ea;
+    --accent: #7a1f2b;
+    --accent-soft: #f6eced;
+    --bg: #ffffff;
+    --row: #fafbfc;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 24px 16px 48px;
+    background: var(--bg);
+    color: var(--ink);
+    font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  .wrap { max-width: 820px; margin: 0 auto; }
+  header {
+    border-bottom: 3px solid var(--accent);
+    padding-bottom: 16px;
+    margin-bottom: 24px;
+  }
+  h1 { font-size: 1.6rem; line-height: 1.25; margin: 0 0 8px; }
+  .meta { color: var(--muted); margin: 2px 0; }
+  .meta strong { color: var(--ink); }
+  h2 {
+    font-size: 1.2rem;
+    margin: 32px 0 12px;
+    color: var(--accent);
+  }
+  h3 { font-size: 1rem; margin: 20px 0 6px; }
+  ul, ol { margin: 0 0 8px; padding-left: 22px; }
+  li { margin: 4px 0; }
+  li > ul, li > ol { margin-top: 4px; }
+  p { margin: 0 0 8px; }
+  .note { color: var(--muted); }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 8px 0 12px;
+  }
+  th, td {
+    text-align: left;
+    vertical-align: top;
+    padding: 8px 12px;
+    border-bottom: 1px solid var(--line);
+  }
+  th {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--muted);
+    border-bottom: 2px solid var(--line);
+  }
+  td.nowrap { white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .table-scroll { overflow-x: auto; }
+  .opening {
+    background: var(--accent-soft);
+    border-left: 4px solid var(--accent);
+    padding: 12px 16px;
+    border-radius: 4px;
+    margin: 0 0 8px;
+  }
+  .opening ol { margin: 0; }
+  .vote {
+    border: 2px solid var(--accent);
+    border-radius: 6px;
+    padding: 12px 16px 8px;
+    margin: 12px 0;
+  }
+  .vote h4 { margin: 0 0 6px; font-size: 0.95rem; }
+  .vote ol > li { margin-bottom: 6px; }
+  .reminder {
+    background: var(--accent-soft);
+    border-left: 4px solid var(--accent);
+    padding: 12px 16px;
+    border-radius: 4px;
+    font-weight: 600;
+  }
+  .signoff { margin-top: 32px; color: var(--muted); }
+  .signoff strong { color: var(--ink); }
+  .actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+  .btn {
+    display: inline-block;
+    padding: 10px 18px;
+    background: var(--accent);
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 6px;
+  }
+  .btn:hover { opacity: 0.9; }
+  button.btn { border: 2px solid var(--accent); font: inherit; font-weight: 600; cursor: pointer; }
+  .btn-outline { background: #fff; color: var(--accent); border: 2px solid var(--accent); }
+  a { color: var(--accent); }
+  .print-only { display: none; }
+
+  @media (max-width: 560px) {
+    body { padding: 16px 16px 40px; }
+    h1 { font-size: 1.35rem; }
+    th, td { padding: 8px 6px; }
+  }
+
+  @media print {
+    @page { size: letter; margin: 0.5in; }
+    * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    body { padding: 0; font-size: 11px; line-height: 1.35; }
+    .wrap { max-width: none; }
+    .actions { display: none !important; }
+    .print-only { display: block; color: var(--muted); margin: 4px 0 0; }
+    header { padding-bottom: 8px; margin-bottom: 10px; }
+    h1 { font-size: 18px; margin-bottom: 4px; }
+    h2 { font-size: 13px; margin: 12px 0 4px; }
+    h3 { font-size: 11.5px; margin: 8px 0 2px; }
+    li { margin: 1px 0; }
+    th, td { padding: 3px 8px; }
+    table { margin: 4px 0 6px; }
+    tr, .vote, .opening { break-inside: avoid; }
+    h2, h3 { break-after: avoid; }
+    .vote { padding: 6px 10px 4px; }
+    .vote > ol { columns: 2; column-gap: 24px; }
+    .vote > ol > li { break-inside: avoid; margin-bottom: 4px; }
+    .reminder { padding: 6px 10px; }
+    .signoff { margin-top: 12px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>WMEA Southeast District Fall Meeting Agenda</h1>
+  <p class="meta"><strong>Tuesday, November 24, 2026 · 8:30 am</strong></p>
+  <p class="meta"><strong>Drama Room (D114)</strong>, South High School, during the Honor Clinic</p>
+  <div class="actions">
+    <a class="btn" href="https://26-district-clinic-schedule.netlify.app" target="_blank" rel="noopener">Clinic Schedule</a>
+    <button class="btn btn-outline" type="button" onclick="window.print()">Print Agenda</button>
+  </div>
+  <p class="print-only">Clinic schedule: 26-district-clinic-schedule.netlify.app</p>
+</header>
+
+<div class="opening">
+  <ol>
+    <li>Call to order</li>
+    <li>Introduction of members in attendance</li>
+  </ol>
+</div>
+
+<h2>Old business</h2>
+
+<h3>2027 MPA: April 12–13, Cheyenne</h3>
+<div class="table-scroll">
+<table>
+  <thead><tr><th>Day</th><th>Event</th><th>Site</th></tr></thead>
+  <tbody>
+    <tr><td class="nowrap">Mon 4/12</td><td>Vocal solos</td><td>Central HS</td></tr>
+    <tr><td class="nowrap">Mon 4/12</td><td>Band large groups</td><td>East HS</td></tr>
+    <tr><td class="nowrap">Mon 4/12</td><td>Orchestra large groups</td><td>South HS</td></tr>
+    <tr><td class="nowrap">Mon 4/12</td><td>Percussion solos and ensembles</td><td>East HS Auditorium (PM); Tue 4/13 at Central HS Auditorium</td></tr>
+    <tr><td class="nowrap">Tue 4/13</td><td>Vocal large groups</td><td>East HS</td></tr>
+    <tr><td class="nowrap">Tue 4/13</td><td>Band solos</td><td>Central HS</td></tr>
+    <tr><td class="nowrap">Tue 4/13</td><td>Orchestra solos</td><td>South HS</td></tr>
+  </tbody>
+</table>
+</div>
+
+<p><strong>Adjudicators</strong> <span class="note">(large-group judges also judge solos on the other day)</span></p>
+<div class="table-scroll">
+<table>
+  <thead><tr><th>Area</th><th>Confirmed</th><th>Still needed</th></tr></thead>
+  <tbody>
+    <tr><td class="nowrap">Band (6)</td><td>Brent Rose (WHSAA), Debbie Rose (Retired), Nick Simons (Retired), Karia Schofield (Gillette), Tyna Bennett (Douglas), Kevin Madigan (Retired)</td><td>None</td></tr>
+    <tr><td class="nowrap">Choir (4–5)</td><td>Bethany Smith-Jacobs (LCCC), O'Neil Jones (UW), Erik Erlandson (UW)</td><td>2 solo judges</td></tr>
+    <tr><td class="nowrap">Orchestra (4–5)</td><td>Michele Lazarus (Retired), James Cavazos (Casper), Bob Kreutz (Retired)</td><td>2 solo judges</td></tr>
+  </tbody>
+</table>
+</div>
+<p>Please share adjudicator suggestions, especially for orchestra and choir.</p>
+
+<p><strong>MPA key dates</strong></p>
+<ul>
+  <li>Registration opens: late January</li>
+  <li>Last day to register: about February 20</li>
+  <li>Draft schedule sent: about March 9</li>
+  <li>Last day for schedule changes: about March 13</li>
+  <li>Final schedule sent: about March 20</li>
+</ul>
+
+<h3>2026 Honor Clinic</h3>
+<ul>
+  <li>Thank you to Tyler Barker, David Mead, and South High School for hosting</li>
+</ul>
+
+<h2>Upcoming dates</h2>
+
+<h3>2026–2027 remaining</h3>
+<div class="table-scroll">
+<table>
+  <thead><tr><th>Event</th><th>Date</th><th>Location</th></tr></thead>
+  <tbody>
+    <tr><td>All-State Band/Choir/Orchestra</td><td class="nowrap">January 17–19, 2027</td><td>Evanston</td></tr>
+    <tr><td>All-State Jazz Band and Choir</td><td class="nowrap">February 1–2, 2027</td><td>Powell</td></tr>
+    <tr><td>Southeast District MPA</td><td class="nowrap">April 12–13, 2027</td><td>Cheyenne</td></tr>
+    <tr><td>SE Junior High Band/Jazz Band Festival</td><td class="nowrap">May 4, 2027</td><td>Cheyenne Central HS (McCormick)</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h3>2027–2028</h3>
+<div class="table-scroll">
+<table>
+  <thead><tr><th>Event</th><th>Date</th><th>Location</th></tr></thead>
+  <tbody>
+    <tr><td>State String Clinic</td><td>1st Mon–Tue of November 2027</td><td>Jackson</td></tr>
+    <tr><td>Southeast District Honor Clinic</td><td class="nowrap">November 22–23, 2027</td><td>Laramie</td></tr>
+    <tr><td>All-State Band/Choir/Orchestra</td><td class="nowrap">January 16–18, 2028</td><td>Gillette</td></tr>
+    <tr><td>All-State Jazz Band and Choir</td><td>TBD</td><td>TBD</td></tr>
+    <tr><td>SE MPA: solos and small ensembles</td><td>TBD (see MPA split)</td><td>Laramie</td></tr>
+    <tr><td>SE MPA: large groups</td><td>TBD (see MPA split)</td><td>Laramie</td></tr>
+    <tr><td>SE Junior High Band/Jazz Band Festival</td><td>Set at the January meeting</td><td>Cheyenne East HS (Carey)</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h2 class="page-break">New business</h2>
+
+<h3>New district handbook</h3>
+<ul>
+  <li><a href="https://sites.google.com/wyomea.org/wmea-southeast-district/home" target="_blank" rel="noopener">Southeast District Handbook</a>: calendar, event checklists, email templates, officers and finances</li>
+  <li>Please check your entry in the Directory</li></ul>
+
+<h3>25-year members and retirees</h3>
+<ul>
+  <li>Send names to the WMEA Retired Membership chair (Joann Stevens)</li>
+</ul>
+
+<h3>Honor Clinic format for 2027 (Laramie)</h3>
+<ul>
+  <li>Number of bands and choirs (2 each?)</li>
+  <li>Choir clinician: SATB</li>
+</ul>
+
+<h3>WMEA Board meeting updates</h3>
+<ul>
+  <li>No All-Northwest event in April 2027, per NAfME's decision
+    <ul><li>Idaho, Montana, Alaska and Wyoming are looking into a non-NAfME honor group</li></ul>
+  </li>
+  <li>High school track at the State Music Conference
+    <ul>
+      <li>Districts can bring students who didn't make All-State but have a strong interest in music</li>
+      <li>Increases participation from rural schools and their teachers</li>
+      <li>Sessions use current clinicians and teachers, so no extra cost to the conference</li>
+    </ul>
+  </li>
+</ul>
+
+<h3>MPA split starting 2027–2028 (vote needed)</h3>
+<p>Solos and large groups become two separate events: 2 days in February or March, and 2 days in April. Laramie hosts in 2027–2028.</p>
+<ol>
+  <li>Which event comes first (February or March) and which is in April?</li>
+  <li>Set the dates. Suggested options (WHSAA and WMEA 2027–28 calendars aren't posted yet):
+    <ul>
+      <li><strong>February:</strong> Mon–Tue February 7–8, 14–15, or 28–29, 2028 (February 21 is Presidents' Day)</li>
+      <li><strong>March:</strong> Mon–Tue March 6–7 or March 13–14, 2028 (ahead of the likely late-March ACT window)</li>
+      <li><strong>April:</strong> Mon–Tue April 10–11, 2028 (week 41; April 17–18 is Easter Monday)</li>
+      <li>Known conflicts: no National ACDA in 2028 (held in odd years); WY-ALT testing March 28–May 5; WY-TOPP April 25–May 26; 2028 ACT dates not posted yet (recent years: late March and early April); 2028 All-State Jazz date not posted yet (2027 is February 1–2, so February 7–8 could conflict)</li>
+      <li>2027–28 spring breaks: LCSD1 [dates], LCSD2 [dates], ACSD1 [dates]</li>
+      <li>Still to check: WHSAA winter state tournaments (wrestling, swimming, basketball), Cheyenne All-City events, musicals, BOC events</li>
+    </ul>
+  </li>
+  <li>MPA host rotation going forward (MPAs only; this does not change the District Clinic rotation). Options:
+    <ul>
+      <li>Keep the current MPA rotation</li>
+      <li>Laramie always hosts large groups; Cheyenne always hosts solos</li>
+      <li>Cheyenne always hosts large groups; Laramie always hosts solos</li>
+      <li>Laramie and Cheyenne trade MPA events every year</li>
+    </ul>
+  </li>
+  <li>Final dates must go to the WHSAA Director of Fine Arts &amp; Activities by mid-May 2027 to take effect next year.</li>
+</ol>
+
+<div class="vote">
+  <h4>Ballot questions</h4>
+  <ol>
+    <li>Which event comes first (February or March)?
+      <ul>
+        <li>Solos and small ensembles</li>
+        <li>Large groups</li>
+      </ul>
+    </li>
+    <li>Dates for the first event in 2028:
+      <ul>
+        <li>Mon–Tue February 7–8</li>
+        <li>Mon–Tue February 14–15</li>
+        <li>Mon–Tue February 28–29</li>
+        <li>Mon–Tue March 6–7</li>
+        <li>Mon–Tue March 13–14</li>
+      </ul>
+    </li>
+    <li>Dates for the April event in 2028:
+      <ul><li>Mon–Tue April 10–11</li><li>Other (write in)</li></ul>
+    </li>
+    <li>MPA host rotation starting 2028–29:
+      <ul>
+        <li>Keep the current MPA rotation</li>
+        <li>Laramie always hosts large groups; Cheyenne always hosts solos</li>
+        <li>Cheyenne always hosts large groups; Laramie always hosts solos</li>
+        <li>Laramie and Cheyenne trade MPA events every year</li>
+      </ul>
+    </li>
+    <li>Name, school, and NAfME member number</li>
+  </ol>
+</div>
+<p class="reminder">Votes on the MPA split happen online after the meeting. You must be a current NAfME member to vote.</p>
+
+<h3>Invoices</h3>
+<ul><li>Reminder to pay any open invoices</li></ul>
+
+<h3>Other items</h3>
+<ul><li>Items from the floor</li></ul>
+
+<h2>Adjourn</h2>
+<p class="signoff">Thank you,<br><strong>Brandon Schumacher</strong>, Southeast District President</p>
+
+</div>
+</body>
+</html>
